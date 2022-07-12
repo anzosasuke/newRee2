@@ -1,0 +1,5 @@
+rm -rf *.o  train-allbooks.out
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf xalancbmk_s
+rm -rf xalancbmk_s.exe
+rm -rf core

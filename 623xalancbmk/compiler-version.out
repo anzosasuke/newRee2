@@ -1,0 +1,6 @@
+/usr/bin/g++     -std=c++03 -m64 -DSPEC -DNDEBUG  -DAPP_NO_THREADS -DXALAN_INMEM_MSG_LOADER -I. -Ixercesc -Ixercesc/dom -Ixercesc/dom/impl -Ixercesc/sax -Ixercesc/util/MsgLoaders/InMemory -Ixercesc/util/Transcoders/Iconv -Ixalanc/include -DPROJ_XMLPARSER -DPROJ_XMLUTIL -DPROJ_PARSERS -DPROJ_SAX4C -DPROJ_SAX2 -DPROJ_DOM -DPROJ_VALIDATORS -DXML_USE_INMEM_MESSAGELOADER -g    -DSPEC_LINUX   -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  -v >>compiler-version.tmpout 2>&1
+cat "compiler-version.tmpout"
+
+ CXXC_VERSION_OPTION:
+
+rm -rf compiler-version.tmpout
